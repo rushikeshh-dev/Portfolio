@@ -700,7 +700,7 @@ body::before {
    EXPERTISE — tighter
    ================================================================ */
 .expertise { padding: var(--section-gap) max(28px, 6%); max-width: 1400px; margin: 0 auto; }
-.expertise-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-bottom: 56px; }
+.expertise-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 18px; margin-bottom: 56px; }
 .expertise-card {
     background: var(--card); border: 1px solid var(--border);
     border-radius: 22px; padding: 32px 28px;
@@ -1340,7 +1340,7 @@ canvas { border-radius: 0 0 22px 22px; display: block; }
     padding:var(--section-gap) max(42px,7%);
 }
 
-.works .section-description{
+.section-description{
     max-width:700px;
     margin:17px auto 0;
     color:var(--muted);
